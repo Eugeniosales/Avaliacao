@@ -1,3 +1,5 @@
+#Adição de script para compactação do arquivo gerado na diretório especificado
+
 import os
 import shutil
 import tarfile
