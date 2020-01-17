@@ -1,0 +1,8 @@
+version: '2'
+services:
+  meunginx:
+    image: "nginx:latest"
+    volumes:
+      - './:/opt/meunginx'
+    ports:
+      - 9090:80
